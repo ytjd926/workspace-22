@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<script src="../common/jquery-1.11.2.min.js"></script>
+
+
+<script>
+//    function abc(re) {
+//        alert(re);
+//    }
+//
+//    function request(id,url){
+//        oScript = document.getElementById(id);
+//        var head = document.getElementsByTagName("head").item(0);
+//        if (oScript) {
+//            head.removeChild(oScript);
+//        }
+//        oScript = document.createElement("script");
+//        oScript.setAttribute("src", url);
+//        oScript.setAttribute("id",id);
+//        oScript.setAttribute("type","text/javascript");
+//        oScript.setAttribute("language","javascript");
+//        head.appendChild(oScript);
+//        return oScript;
+//    }
+//    function abc(re) {
+//        alert(re);
+//    }
+//    function onClick()
+//    {
+//      request("word","https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx44e69161465b6d99&secret=f09fe039791e6af68f8bb05b9a71f662&callback=abc");
+//    }
+//
+//    onClick();
+//    document.domain = 'a.com';
+    $(function () {
+        $.ajax({
+            type: 'POST',
+            dataType: 'jsonp',
+            jsonp: 'jsoncallback',
+            contentType: "application/json;utf-8",
+            url: "",
+            data: "grant_type=client_credential&appid=wx44e69161465b6d99&secret=f09fe039791e6af68f8bb05b9a71f662",
+            timeout: "300000",
+            beforeSend: function () {
+            }
+        }).fail(function (e) {
+            var info = "";
+            // e=JSON.parse(e);
+            for (var s in e) {
+                info += s + ":" + e[s] + "</br>";
+            }
+          //  $("#html").html(info);
+            // alert(info);
+        }).done(function (data) {
+            alert("data=" + data);
+        });
+
+        $("[id=mainIframe]").load(function(){
+            alert("r1");
+
+            var data = $("#mainIframe").contents().find("body").html();
+//            var info="";
+//            for (var s in data) {
+//                info += s + ":" + data[s] + "</br>";
+//            }
+            $("#html").html(data);
+
+//            var data =$("body",document.frames('iframename').document).html();
+//            alert("body="+data);
+        });
+
+
+
+    });
+
+</script>
+<body>
+<div id="html"></div>
+</body>
+</html>
