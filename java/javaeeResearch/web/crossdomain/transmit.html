@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
+<head>
+    <meta charset="UTF-8"/>
+    <script ></script>
+    <script type="text/javascript">
+        document.addEventListener('plusready', function(){
+            var xhr = new plus.net.XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                switch ( xhr.readyState ) {
+                    case 0:
+                        alert( "xhr请求已初始化" );
+                        break;
+                    case 1:
+                        alert( "xhr请求已打开" );
+                        break;
+                    case 2:
+                        alert( "xhr请求已发送" );
+                        break;
+                    case 3:
+                        alert( "xhr请求已响应");
+                        break;
+                    case 4:
+                        if ( xhr.status == 200 ) {
+                            alert( "xhr请求成功："+xhr.responseText );
+                        } else {
+                            alert( "xhr请求失败："+xhr.readyState );
+                        }
+                        break;
+                    default :
+                        break;
+                }
+            }
+            xhr.open( "POST", "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx44e69161465b6d99&secret=f09fe039791e6af68f8bb05b9a71f662" );
+            xhr.send();
+        }, false );
+    </script>
 </head>
-
-<body>
-<script>
-    window.location.href="https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx44e69161465b6d99&secret=f09fe039791e6af68f8bb05b9a71f662";
-</script>
+<body onload="onload();">
 </body>
 </html>
