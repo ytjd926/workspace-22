@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Nodejs/ZaoTang/ZaoTang.iml" filepath="$PROJECT_DIR$/../../Nodejs/ZaoTang/ZaoTang.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaeeResearch.iml" filepath="$PROJECT_DIR$/javaeeResearch.iml" />
     </modules>
   </component>

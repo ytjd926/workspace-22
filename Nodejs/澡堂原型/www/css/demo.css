@@ -1,0 +1,81 @@
+/*我的页面*/
+.content{
+    background-color: rgba(231, 229, 229, 0.34);
+}
+.card {
+    margin: 0px 0px 10px 0px;
+    /*overflow: hidden;*/
+    background-color: #fff;
+    border: 0.1px solid rgba(0, 0, 0, 0);
+    border-radius: 0px;
+}
+.badge{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.segmented-control {
+    border-bottom:0px solid rgba(0, 0, 0, 0);
+}
+
+.control-item{
+    border: 0.1px solid rgba(0, 0, 0, 0);
+}
+
+.control-item .num{
+    margin-top:5px;
+}
+
+.control-item .media-object{
+    margin-left:30px;
+}
+
+/*商家列表页面*/
+.price{
+    margin-top:15px;
+}
+
+.discount{
+    margin-left: 20px;
+    color: #ffa27c;
+    border: 1px solid #ffa27c;
+}
+
+.imgShangJia{
+    width:60px;
+    height:60px;
+}
+
+.city{
+    margin-left:10px;
+}
+
+.badge-text{
+    margin-top:15px;
+}
+
+/*更多页面*/
+.table-view-cell-title{
+    border-bottom: 1px solid blue;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.table-view-cell-content{
+    font-size:10px;
+    padding-top:8px;
+    padding-bottom: 8px;
+}
+
+/*商家明细*/
+#shopBanner{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+

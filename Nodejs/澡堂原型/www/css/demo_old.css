@@ -1,0 +1,190 @@
+@charset "utf-8";
+body{ font-family: "微软雅黑",arial, sans-serif;text-shadow:none;font-size:16px;}
+
+/****个人中心***/
+.font1{font-size:18px;font-weight:bold;}
+.font2{font-size:18px;font-weight:normal;}
+
+.title{color:#fff;font-weight:bold;}
+
+
+
+
+/*******去除input边框*********/
+.input-row{border-bottom:none;float:right;}
+/****文本域直接用虚线隔开****/
+.table-view .dashed{border-bottom:1px solid #ddd}
+/*********调整文本框左靠齐和文本框宽度***********/
+.input-row input{padding-right:15px;padding-top:4px;color:#999999;text-align:right;width:85%}
+/**********绿色提交按钮**********/
+.buttonstyle{margin-top:40px;height:45px;}
+.buttonstyle a{height:100%;}
+.btn-primary{background-color:#45c01a;border:1px solid #fff;padding-top:10px;font-size:18px;}
+.btn-primary:hover{background-color:#45c01a;border:1px solid #fff;}
+/******调整textarea与div的距离*******/
+textarea{border:0px;padding-left:5px;padding-top:5px;}
+
+/******去除card边框******/
+.cardNoBorder{border:0px;margin-bottom:0px;}
+/*********加card下边框**********/
+.cardBottom{border:0px;border-bottom:1px solid #ddd;border-radius:0px;}
+.cardyuan{margin-left:0px;margin-right:0px;border:0px;}
+
+.cardnav{margin:0px;width:100%;height:50px;}
+
+/*****文本域左侧的图片******/
+.leftImg{width:30px;}
+
+/*******下拉********/
+.row-fluid{display:inline-block;width:70%;}
+
+.rightpage{color:#45c01a;font-size:20px;}
+
+hr{margin-left:0px; margin-top:10px;margin-bottom:10px;height:1px;border:0px;background-color:#D5D5D5;color:#D5D5D5;}
+
+
+
+/*****添加心仪车型*******/
+.bartitle{height:75px;}
+.bartitle h1{line-height:75px;}
+
+/*******个人中心下半部分*********/
+.navbar{padding-right:0px;padding-left:0px;position:relative;}
+.navbar .segmented-control{top:5px;height:40px;}
+.navbar .segmented-control .control-item{padding-top:16px;}
+.listcon .btn{border:0px;text-align:right;}
+.listcon .btn-positive{border:1px solid;background-color:#45c01a;color:fff;width:50px;text-align:center;}
+.listcon .btn img{width:60%}
+.listcon li a{padding:0px;}
+/*
+.listcon li a:hover{border-style:none;background:#ffffff;}*/
+.listcon li{padding:11px 130px 11px 0px;font-weight:bold;}
+.listcon li p{white-space: nowrap; text-overflow: ellipsis;}
+.urltitle{margin-left:12px}
+p{font-weight:normal;}
+.qknav .segmented-control{background: url("../images/t1.png") repeat;border:0px;;width:100%}
+.qknav .segmented-control .control-item{border-left:0px;font-size:16px;width:50%}
+.listcon li.liurl{font-weight:normal}
+.pagelist li{margin-top:5px}
+.btn-outlined.btn-positive.listpagespan{font-weight:bold;right:4px;font-size:16px;}
+.btn-outlined.btn-positive.listpagespan span{color:#333333;font-size:16px;}
+
+.xymodels{color:#a0a0a0}
+.xymodels a{color:#333333;padding-right:0px;}
+/***左侧头像**/
+.listcon .btn .headImg{width:80px;height:80px;}
+
+/****服务评价*****/
+
+.libordernull li{border-bottom: 0px;}
+.libordernull li img{width:40px;height:38px;}
+
+.rescue .media-object.spaniconpage{width:40px;margin-right:0px;margin-top:2px;}
+/************绑定车牌车架*********/
+.message{background-color:#F4F4F4;}
+.message .segmented-control{border:1px solid #45C01A;background-color:#F4F4F4;}
+.message .segmented-control .control-item{color:#45C01A}
+.navbarbind{border-bottom: none;padding-right:10px;padding-left: 10px;}
+.inputline{border-bottom: 1px solid #ddd;margin-top: 10px;float:left;width:100%}
+.navbarbind{position:relative;}
+
+.liblock{display: inline-block;width:22%;margin-right:2%;height:55px;padding: 0px;text-align:center;padding-top:6px;font-size:16px;color:#fffff;}
+.liblock.first{padding-top:6px;background-color: #f56c7e;}
+.liblock.second{background-color: #98d98e;}
+.liblock.third{background-color: #8fd3ef;}
+.liblock.four{background-color: #f7b977;}
+.liblock span{color:#45C01A}
+.liblock p{font-size:12px;}
+
+.pagelist .table-view-cell{padding:10px 0 10px 0px}
+.pagelist.ullist .table-view-cell{padding:5px 0 5px 5px}
+.carseries .table-view-cell{padding:11px 45px 11px 0px}
+.carseries .table-view-cell span{padding-left:10px;color:#4c4c4c;}
+.rescue .libordernull .table-view-cell{padding:0px 0px 0px 0px}
+
+.carlist{border-right:1px solid #ddd;display: inline-block;width:50%;padding: 0px;text-align:center;padding-top:10px;font-size:16px;color:#fffff;}
+
+
+
+/*****完善资料******/
+.datainfo{font-size: 16px;padding-top:10px;padding-right:10px;text-align: left;}
+.datainfocz{font-size: 16px;padding-top:10px;border-right: 2px solid #ddd;padding-right:10px;width:110px;text-align: right;}
+/***潜客个人信息****/
+#qkdata .pull-left{border-right:2px solid #ddd;padding-right:10px;font-size: 16px;}
+#qkdata .input-row input{width:100%;padding-left:5px;padding-bottom:7px;border:0px;}
+#qkdata .btn-primary{background-color:#6FBA3C;border:1px solid #fff;}
+
+.orderinput{float:left;}
+.orderinput input{float:left;text-align:left;padding-top:0px;}
+/*****预约保养******/
+.appoinMaintain{border:0px;}
+.appoinMaintain .input-row input{color:#000;}
+.appoinMaintain .titleImg{width:15%;height:35px;padding-right:6px;display:inline-block;}
+.appoinMaintain .titlecon{color:#F4C287;width:80%;font-size:14px;display:inline-block;}
+.appoinMaintain .input_p p{padding-top:5px}
+.appoinMaintain .table-view-cell > a:not(.btn){margin:-11px -11px -3px;}
+.appoinMaintain .table-view-cell{padding:0px 11px 2px;}
+
+/****保养成功*****/
+.result .btn{background-color:#eeeeee;color:#666666 }
+.resultlast .table-view-cell{padding: 0px;}
+.pui p{margin-top:6px;}
+
+.content-padded.titleh4 h4{color:#666666}
+.content-padded.titleh4 p{font-size:16px;}
+/***********日历控件**********/
+.input-group-addon{border:0px;background-color:#ffffff;}
+.glyphicon.glyphicon-th{display:none;}
+.glyphicon.glyphicon-remove{display:none;}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{background-color:#ffffff;text-align:left}
+
+
+
+.cont{background-color:#f4f4f4}
+.content{margin-top:44px;}
+.cardNoBorderCon{border:0px;margin-bottom:0px;background-color:#f4f4f4}
+/*****橙色绿色**********/
+.carChense{border-top:5px solid #FFB74D;}
+.carlvse{border-top:5px solid #45C01A;background-color:#ffffff;border-left:0px;border-right:0px;border-bottom:0px;}
+.cardnone{border:0px;}
+.carhui{border-top:5px solid #89909A;}
+
+/**********新版表单***********/
+.orderinputli{padding:1px 0px 8px 15px;margin-top:8px;}
+.orderinputli img{margin-top:3px;}
+.orderinputnew{float:left;width:85%}
+.orderinputnew input{float:left;text-align:left;padding-top:0px;width:100%}
+/************表格*****************/
+.liblocktable{width:100%;padding-left:0px;padding-right:0px;}
+.liblocktable table{width:100%;border:1px;}
+.liblocktable table tr{background-color:#fff}
+.liblocktable table tbody tr{border-top:5px solid #f4f4f4;height:45px}
+.liblocktable table th,td{text-align:center;}
+
+.liblocktablere table tbody tr{border-top:1px solid #f4f4f4;height:45px}
+.liblocktablere table th,td{text-align:center;}
+
+/********我的消息***********/
+.messageul li{padding-left:10px;padding-right:10px;}
+.messageul li img{width:100%}
+
+/**************服务顾问页面****************/
+.sapageul{border-bottom:0px;}
+.sapageul li{border:0px;padding-right:0px;padding-top:5px;padding-bottom:0px}
+.sapageul li hr{margin-left:40px;}
+.carlvse ul li a.btn{border:1px solid; margin-left:15px;margin-right:15px;width:120px;margin-bottom:5px;}
+.carlvse p{font-size:16px;margin-bottom:5px}
+.carChense ul li a.btn{border:1px solid #FFB74D;color:#FFB74D; margin-left:14px;margin-right:14px;width:120px;margin-bottom:5px;}
+.carChense p{font-size:16px;margin-bottom:5px}
+.content-padded .btn.btn-primary{padding-top:12px;}
+.content-padded .btn.btn-primary img{width:20px;}
+.content-padded a{text-decoration:none;color:#fff}
+
+.table-view-cell .righta{text-decoration:none;font-size:16px;color:#45C01A;font-weight:bold;float:right;padding-right:10px;}
+.table-view-cell .righta span{color:#000;}
+.table-view-cell .righta .spancolor{color:#ec766c;}
+
+.table-view-cell .input-row .leftselect{padding-left:0px;color:#999999;}
+
+.table-view-cell.rightnone{padding:11px 10px 11px 10px;}
+
