@@ -1,6 +1,8 @@
 package com.bright.examples.demos;
 
+import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
@@ -13,14 +15,19 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bright.examples.model.BeaconModel;
 import com.brtbeacon.sdk.BRTBeacon;
 import com.brtbeacon.sdk.BRTBeaconManager;
 import com.brtbeacon.sdk.BRTRegion;
 import com.brtbeacon.sdk.RangingListener;
 import com.brtbeacon.sdk.ServiceReadyCallback;
+import com.brtbeacon.sdk.Utils;
 import com.brtbeacon.sdk.service.RangingResult;
+
+import com.brtbeacon.sdk.BRTBeacon;
 
 public class BRTBeaconManagerListBeaconsActivity extends Activity {
 
@@ -39,6 +46,20 @@ public class BRTBeaconManagerListBeaconsActivity extends Activity {
 	private static final BRTRegion BRIGHT_BEACONS_REGION = new BRTRegion("rid", BRIGHT_PROXIMITY_UUID, null, null, null);
 	private BRTBeaconManager beaconManager;
 	private BRTLeDeviceListAdapter adapter;
+	
+	private ArrayList<BeaconModel> modelList;
+	
+    /* native method */
+    public static native String sayHello(); 
+    public static native double[] calculatePosition(double[] dataIn);
+
+	/*
+	 * this is used to load the 'libtriangulation' library on application
+	 */
+	static {
+		System.loadLibrary("BRTBeaconManagerListBeaconsActivity");
+	}
+	
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -51,23 +72,81 @@ public class BRTBeaconManagerListBeaconsActivity extends Activity {
 		list.setOnItemClickListener(createOnItemClickListener());
 		// 创建BRTBeaconManager对象
 		beaconManager = new BRTBeaconManager(this);
+		
+		initBeacon();
+		
+		final TextView showPoint=(TextView) findViewById(R.id.showPoint);
+		
+		
+		
+		
 		// 回调扫描结果
 		beaconManager.setRangingListener(new RangingListener() {
 
 			@Override
 			public void onBeaconsDiscovered(final RangingResult rangingResult) {
 
+				
 				runOnUiThread(new Runnable() {
 					@Override
 					public void run() {
+						
+						
 
 						getActionBar().setSubtitle("附近Beacon个数: " + rangingResult.beacons.size());
+						int size=rangingResult.beacons.size();
+						
+						List<BRTBeacon> beacons = rangingResult.beacons;
+						ArrayList<BeaconModel> arr=new ArrayList<BeaconModel>();
+						if(size>=3){
+//							 double[] dataIn = new double[]{1.0, 1.0, 1, 3.0, 1.0, 1, 2, 4, 3.0};
+						
+							for (BRTBeacon beacon : beacons) {
+								for (BeaconModel model : modelList) {
+									if(model.getName().equals(beacon.getName())){
+										model.setDistance(Utils.computeAccuracy(beacon));
+										arr.add(model);
+									}
+								}
+								
+								if(arr.size()==3){
+									break;
+								}
+							}
+						}
+						if(arr.size()==3){
+							 double[] dataIn = new double[]{arr.get(0).getX(), arr.get(0).getY(), arr.get(0).getDistance(),
+									 arr.get(1).getX(), arr.get(1).getY(), arr.get(1).getDistance(),
+									 arr.get(2).getX(), arr.get(2).getY(), arr.get(2).getDistance()};
+						     double[] dataOut = calculatePosition(dataIn);        
+						     showPoint.setText(String.format("%.2f  ，  %.2f", dataOut[0],dataOut[1]));
+						    		 
+//						    		 dataOut[0]+","+dataOut[1]);
+						}
+
 						adapter.replaceWith(rangingResult.beacons);
 					}
 				});
 			}
 
 		});
+	}
+
+	private void initBeacon() {
+		// TODO Auto-generated method stub
+		
+		modelList=new ArrayList<BeaconModel>();
+		
+		BeaconModel model0=new BeaconModel("V151906",0,0);
+		BeaconModel model1=new BeaconModel("V151902",2,2);
+		BeaconModel model2=new BeaconModel("V151893",0,2);
+		BeaconModel model3=new BeaconModel("V151905",2,0);
+		modelList.add(model0);
+		modelList.add(model1);
+		modelList.add(model2);
+		modelList.add(model3);
+		
+		
 	}
 
 	@Override

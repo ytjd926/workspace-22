@@ -2,7 +2,6 @@ package com.bright.examples.demos;
 
 import java.util.Arrays;
 
-import com.bright.examples.NDK.NativeClass;
 import com.brtbeacon.sdk.BRTBeaconManager;
 
 import android.app.Activity;
@@ -50,12 +49,7 @@ public class AllDemosActivity extends Activity {
 				startActivity(intent);
 			}
 		});
-		
-	        int[] array = new int[] { 1, 2,  3};       
-	        String str = "数组，调用C++前" + Arrays.toString(array);   
-	        boolean isCopyOfArrayInCpp = NativeClass.jniArrayAdd(array,             1);   
-	        str += "\n在C++中为副本？  " + isCopyOfArrayInCpp;   
-	        str += "\n数组，调用C++后：" + Arrays.toString(array);   
+
 
 	}
 

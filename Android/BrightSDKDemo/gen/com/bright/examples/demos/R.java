@@ -33,8 +33,9 @@ public final class R {
         public static final int notify_demo_button=0x7f080001;
         public static final int power=0x7f080009;
         public static final int radiogroup=0x7f08000e;
-        public static final int refresh=0x7f080019;
+        public static final int refresh=0x7f08001a;
         public static final int root=0x7f080015;
+        public static final int showPoint=0x7f080019;
         public static final int sonar=0x7f080016;
         public static final int status=0x7f080003;
         public static final int update_dbm0=0x7f080011;

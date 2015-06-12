@@ -24,6 +24,10 @@ public class BRTLeDeviceListAdapter extends BaseAdapter {
 	private ArrayList<BRTBeacon> beacons;
 	private LayoutInflater inflater;
 
+	
+
+	
+	
 	public BRTLeDeviceListAdapter(Context context) {
 		this.inflater = LayoutInflater.from(context);
 		this.beacons = new ArrayList<BRTBeacon>();
@@ -66,40 +70,46 @@ public class BRTLeDeviceListAdapter extends BaseAdapter {
 		holder.minorTextView.setText("Minor: " + beacon.getMinor());
 		holder.measuredPowerTextView.setText("MeasuredPower: " + beacon.getMeasuredPower());
 		holder.rssiTextView.setText("Rssi: " + beacon.getRssi());
-        //发送数据给后台
-		Log.e("-------", "发送数据");
-    	try {
-			new LoadMoreLoader().doRequest("/mhs/services/BannerImageService", "insertData", 
-					new LoaderListener() {
-				@Override
-				public void onSuccess(String response) {
-					// TODO Auto-generated method stub
-				}
-				@Override
-				public void onStart() {
-					// TODO Auto-generated method stub
-				}
-				@Override
-				public void onFinish() {
-					// TODO Auto-generated method stub
-				}
-				@Override
-				public void onFailure(int status, String msg) {
-					// TODO Auto-generated method stub
-					
-				}
-
-				@Override
-				public void onConnectFailure(int status, String msg) {
-					// TODO Auto-generated method stub
-					
-				}
-				
-			}, "name",beacon.getName(),"mac",beacon.getMacAddress(),"length",Utils.computeAccuracy(beacon)+"","uuid",beacon.getUuid(),"Major",beacon.getMajor()+"","Minor",beacon.getMinor()+"","MeasuredPower",beacon.getMeasuredPower()+"","Rssi",beacon.getRssi()+"");
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+       
+//		 double[] dataIn = new double[]{1.0, 1.0, 1, 3.0, 1.0, 1, 2, 4, 3.0};
+//	     double[] dataOut = calculatePosition(dataIn);        
+//	     System.out.println("======"+dataOut[0]);
+		
+		
+//		//发送数据给后台
+//		Log.e("-------", "发送数据");
+//    	try {
+//			new LoadMoreLoader().doRequest("/mhs/services/BannerImageService", "insertData", 
+//					new LoaderListener() {
+//				@Override
+//				public void onSuccess(String response) {
+//					// TODO Auto-generated method stub
+//				}
+//				@Override
+//				public void onStart() {
+//					// TODO Auto-generated method stub
+//				}
+//				@Override
+//				public void onFinish() {
+//					// TODO Auto-generated method stub
+//				}
+//				@Override
+//				public void onFailure(int status, String msg) {
+//					// TODO Auto-generated method stub
+//					
+//				}
+//
+//				@Override
+//				public void onConnectFailure(int status, String msg) {
+//					// TODO Auto-generated method stub
+//					
+//				}
+//				
+//			}, "name",beacon.getName(),"mac",beacon.getMacAddress(),"length",Utils.computeAccuracy(beacon)+"","uuid",beacon.getUuid(),"Major",beacon.getMajor()+"","Minor",beacon.getMinor()+"","MeasuredPower",beacon.getMeasuredPower()+"","Rssi",beacon.getRssi()+"");
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 		
 		
 	}

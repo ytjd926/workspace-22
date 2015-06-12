@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp" >
+
+                <SurfaceView
+                    android:id="@+id/playsurface"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp" />
+
+                <TextView
+                    android:id="@+id/linkstate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/audiolistener"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="@string/audiolistener"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/voicecall"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="@string/voicecall"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/record"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="@string/record"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/changestream"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="@string/changestream"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/wifiset"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="@string/wifiset"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/checkremote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="@string/checkremote"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/through_agreement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/through_agreement"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/osd_visibility"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/dismiss_osd"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/modifypass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/modifypass"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/netinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/netinfo"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/changemode"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/changetoap"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <include
+                android:id="@+id/ytlayout"
+                layout="@layout/yt_vertical_layout"
+                android:visibility="visible" />
+
+            <include
+                android:id="@+id/wifisetlayout"
+                layout="@layout/wifi_set"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/voicetip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        layout="@layout/send_voice"
+        android:visibility="gone" />
+
+</RelativeLayout>
