@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../../Nodejs/ZaoTang/ZaoTang.iml" filepath="$PROJECT_DIR$/../../Nodejs/ZaoTang/ZaoTang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Nodejs/澡堂原型/charisma-master/charisma-master.iml" filepath="$PROJECT_DIR$/../../Nodejs/澡堂原型/charisma-master/charisma-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaeeResearch.iml" filepath="$PROJECT_DIR$/javaeeResearch.iml" />
     </modules>
   </component>
