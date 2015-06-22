@@ -67,12 +67,12 @@
             <span>沙窝温泉浴池</span></a>
 
 
-
-
         <ul class="collapse navbar-collapse nav navbar-nav top-menu">
-            <li><a href="AddInPublic.html"><i class="glyphicon glyphicon-user"></i><i class="glyphicon glyphicon-user"></i>添加大池</a></li>
+            <li><a href="AddInPublic.html"><i class="glyphicon glyphicon-user"></i><i
+                    class="glyphicon glyphicon-user"></i>添加大池</a></li>
             <li><a href="AddInPrivate.html"><i class="glyphicon glyphicon-user"></i><b> 添加单间</b></a></li>
             <li><a href="AddOther.html"><i class="glyphicon glyphicon-glass"></i> 购买其他</a></li>
+            <li><a href="Setting.html"><i class="glyphicon glyphicon-cog"></i> 设置</a></li>
 
         </ul>
 
@@ -84,38 +84,23 @@
 
         <div id="content" class="col-lg-12 col-sm-12">
             <div class="row">
-                <div class="box col-md-12">
+                <div id="floor1" class="box col-md-12">
                     <div class="box-inner">
                         <div class="box-header well" data-original-title="">
                             <h2><i class="glyphicon glyphicon-edit"></i> 一楼单间</h2>
+
                             <div class="box-icon">
-                                <a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-plus"></i></a>
+                                <a id="btnAdd" href="#" class="btn btn-setting btn-round btn-default"><i
+                                        class="glyphicon glyphicon-plus"></i></a>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="box col-md-2">
-                        <div class="box-inner">
-                            <div class="box-header well"   data-original-title="">
-                                <h2><input type="text" class="form-control" style="height: 20px;width: 80px;"  placeholder="房间号" /></h2>
-                            </div>
-                            <div class="box-content">
-                                <div class="row">
-                                    <div class="col-md-4"><input type="text" class="form-control" style="height: 20px;width: 80px;" placeholder="单/双缸" /></div>
-                                    <div class="col-md-4"></div>
-                                    <div class="col-md-4">
-                                        <button class="btn btn-success btn-sm">确定</button>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <span class="notification green">X</span>
-                    </div>
 
 
-                    <div class="box col-md-2">
+
+                    <div class="box col-md-3">
                         <div class="box-inner">
                             <div class="box-header well" style="background-color: #73a839 ;" data-original-title="">
                                 <h2 style="color: #ffffff"><i class="glyphicon glyphicon-user "></i><i
@@ -132,7 +117,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="box col-md-2">
+                    <div class="box col-md-3">
                         <div class="box-inner">
                             <div class="box-header well" style="background-color: #808080" data-original-title="">
                                 <h2 style="color: #ffffff"><i class="glyphicon glyphicon-user"></i> 1605房间</h2>
@@ -150,7 +135,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="box col-md-2">
+                    <div class="box col-md-3">
                         <div class="box-inner">
                             <div class="box-header well" style="background-color: #dd5600" data-original-title="">
                                 <h2 style="color: #ffffff"><i class="glyphicon glyphicon-user"></i> 1605房间</h2>
@@ -168,7 +153,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="box col-md-2">
+                    <div class="box col-md-3">
                         <div class="box-inner">
                             <div class="box-header well" style="background-color: #c71c22 " data-original-title="">
                                 <h2 style="color: #ffffff"><i class="glyphicon glyphicon-user"></i> 1605房间</h2>
@@ -188,43 +173,96 @@
                     </div>
 
 
+
+
+
+
                 </div>
 
                 <div class="box col-md-12">
-                    <div class="box-inner">
+                    <div id="floor2" class="box-inner">
                         <div class="box-header well" data-original-title="">
                             <h2><i class="glyphicon glyphicon-edit"></i> 添加二楼单间</h2>
                         </div>
-                        <div class="box-content">
 
 
-
-                        </div>
                     </div>
                 </div>
                 <!--/span-->
 
-            </div><!--/row-->
+            </div>
+            <!--/row-->
 
             <!-- content ends -->
-        </div><!--/#content.col-md-0-->
-    </div><!--/fluid-row-->
-
+        </div>
+        <!--/#content.col-md-0-->
+    </div>
+    <!--/fluid-row-->
 
 
     <hr>
 
 
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h3>添加一楼单间</h3>
+                </div>
+                <div class="modal-body">
+
+                        <div class="box-inner">
+                            <div class="box-header well" data-original-title="">
+                                <h2><input id="addRoomBy1RoomCode" type="text" class="form-control" style="height: 20px;width: 80px;"
+                                           placeholder="房间号"/></h2>
+                            </div>
+                            <div class="box-content">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label class="radio-inline">
+                                            <input type="radio" name="addRoomBy1Radio" id="addRoomBy1One"
+                                                   value="1">单缸
+                                        </label>
+                                    </div>
+                                    <div class="col-md-4"><label class="radio-inline">
+                                        <input type="radio" name="addRoomBy1Radio" id="addRoomBy1Two" value="2" checked>双缸
+                                    </label></div>
+                                    <div class="col-md-4">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-default" data-dismiss="modal">取消</a>
+                    <a href="#" id="addRoomBy1" class="btn btn-primary" data-dismiss="modal">添加</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <footer class="row">
-        <p class="col-md-9 col-sm-9 col-xs-12 copyright">&copy; <a href="http://usman.it" target="_blank">遇到问题？扫码与我对话（描述问题流程1、拍照，2、扫码，3、发给我）</a></p>
+        <p class="col-md-9 col-sm-9 col-xs-12 copyright">&copy; <a href="http://usman.it" target="_blank">遇到问题？扫码与我对话（描述问题流程1、拍照，2、扫码，3、发给我）</a>
+        </p>
 
         <p class="col-md-3 col-sm-3 col-xs-12 powered-by">Powered by: <a
                 href="http://usman.it/free-responsive-admin-template">薄国宁</a></p>
     </footer>
 
-</div><!--/.fluid-container-->
+</div>
+<!--/.fluid-container-->
 
 <!-- external javascript -->
+
+<script>
+    window.url='http://127.0.0.1:3000';
+
+</script>
 
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
@@ -236,8 +274,9 @@
 <!-- data table plugin -->
 <script src='js/jquery.dataTables.min.js'></script>
 
+<script src="js/jquery.timer.js"></script>
 
-
+<script src="js/AddInPrivate.js"></script>
 </body>
 </html>
 

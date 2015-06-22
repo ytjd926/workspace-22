@@ -66,14 +66,11 @@
         <a class="navbar-brand" href="index.html"> <img alt="Charisma Logo" src="img/logo20.png" class="hidden-xs"/>
             <span>沙窝温泉浴池</span></a>
 
-
-
-
         <ul class="collapse navbar-collapse nav navbar-nav top-menu">
             <li><a href="AddInPublic.html"><i class="glyphicon glyphicon-user"></i><i class="glyphicon glyphicon-user"></i> 添加大池</a></li>
             <li><a href="AddInPrivate.html"><i class="glyphicon glyphicon-user"></i> 添加单间</a></li>
-            <li><a href="AddOther.html"><i class="glyphicon glyphicon-glass"></i><b> 购买其他</b></a></li>
-            <li><a href="Setting.html"><i class="glyphicon glyphicon-cog"></i> 设置</a></li>
+            <li><a href="AddOther.html"><i class="glyphicon glyphicon-glass"></i> 购买其他</a></li>
+            <li><a href="Setting.html"><i class="glyphicon glyphicon-cog"></i><b> 设置</b></a></li>
         </ul>
 
     </div>
@@ -89,22 +86,22 @@
                 <div class="box col-md-12">
                     <div class="box-inner">
                         <div class="box-header well" data-original-title="">
-                            <h2><i class="glyphicon glyphicon-edit"></i> 添加其他</h2>
+                            <h2><i class="glyphicon glyphicon-edit"></i> 设置：</h2>
                         </div>
                         <div class="box-content">
                             <br>
                             <div class="input-group has-success col-md-3">
-                                <label class="control-label" for="inputSuccess1">饮料：</label>
-                                <input type="text" class="form-control" id="inputSuccess1"  placeholder="请输入共需多少元"/>
+                                <label class="control-label" for="inputSingle1">单缸：</label>
+                                <input type="text" class="form-control" id="inputSingle1"  placeholder="请输入单缸价格"/>
                             </div>
                             <div class="input-group has-success col-md-3">
-                                <label class="control-label" for="inputSuccess1">其他：</label>
-                                <input type="text" class="form-control" id="inputSuccess1"  placeholder="请输入共需多少元"/>
+                                <label class="control-label" for="inputSingle2">双缸：</label>
+                                <input type="text" class="form-control" id="inputSingle2"  placeholder="请输入双缸价格"/>
                             </div>
 
                             <br/>
                             <p>
-                                <button class="btn btn-danger btn-lg">      0元     </button>
+                                <button id="saveDict" class="btn btn-danger btn-lg">     确定     </button>
                             </p>
 
                         </div>
@@ -131,7 +128,9 @@
     </footer>
 
 </div><!--/.fluid-container-->
-
+<script>
+    window.url='http://127.0.0.1:3000';
+</script>
 <!-- external javascript -->
 
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -144,7 +143,7 @@
 <!-- data table plugin -->
 <script src='js/jquery.dataTables.min.js'></script>
 
-
+<script src="js/Setting.js"></script>
 
 </body>
 </html>
