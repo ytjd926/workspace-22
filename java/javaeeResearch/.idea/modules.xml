@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/../../Nodejs/ZaoTang/ZaoTang.iml" filepath="$PROJECT_DIR$/../../Nodejs/ZaoTang/ZaoTang.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../Nodejs/澡堂原型/charisma-master/charisma-master.iml" filepath="$PROJECT_DIR$/../../Nodejs/澡堂原型/charisma-master/charisma-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaeeResearch.iml" filepath="$PROJECT_DIR$/javaeeResearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Android/zhumu-sdk-3.5.18579.0612B/zhumu-sdk-3.5.18579.0612B/example/zhumu.iml" filepath="$PROJECT_DIR$/../../Android/zhumu-sdk-3.5.18579.0612B/zhumu-sdk-3.5.18579.0612B/example/zhumu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Android/zhumu-sdk-3.5.18579.0612B/zhumu-sdk-3.5.18579.0612B/zhumu-common-lib/zhumu-common-lib.iml" filepath="$PROJECT_DIR$/../../Android/zhumu-sdk-3.5.18579.0612B/zhumu-sdk-3.5.18579.0612B/zhumu-common-lib/zhumu-common-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Android/zhumu-sdk-3.5.18579.0612B/zhumu-sdk-3.5.18579.0612B/zhumu-sdk/zhumu-sdk.iml" filepath="$PROJECT_DIR$/../../Android/zhumu-sdk-3.5.18579.0612B/zhumu-sdk-3.5.18579.0612B/zhumu-sdk/zhumu-sdk.iml" />
     </modules>
   </component>
 </project>

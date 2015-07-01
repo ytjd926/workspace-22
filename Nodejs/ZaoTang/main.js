@@ -45,7 +45,7 @@ app.get('/saveRoom',function(req,res){
     room.status = status;
 
     mongoose.save(room,function(){
-        console.log("保存成功");
+        console.log("新增房间成功");
         res.send("1");
     },function(err){
         res.send("0");
@@ -88,11 +88,26 @@ app.get("/updateRoom",function(req,res){
             console.log(error);
             res.send(error);
         } else {
-            console.log('update ok!');
+            console.log('开房成功');
             res.send("update OK!");
         }
     });
+});
+app.get("/removeRoom",function(req,res){
+    var roomCode=req.query.roomCode;
+    var conditions = {roomName : roomCode};
 
+    var update     = {$set : {status : 0, usedTime : ""}};
+    var options    = {upsert : true};
+    mongoose.privateRoomModel.update(conditions, update, options, function(error){
+        if(error) {
+            console.log(error);
+            res.send(error);
+        } else {
+            console.log('退房成功');
+            res.send("update OK!");
+        }
+    });
 });
 //————————————————————————单间相关 完毕
 
@@ -106,7 +121,7 @@ app.get("/saveIncome",function(req,res){
     income.remark = req.query.remark;
 
     mongoose.save(income,function(){
-        console.log("保存成功");
+        console.log("入账成功");
     },function(err){
         console.log("保存失败");
     });
@@ -131,7 +146,7 @@ app.get("/saveDict",function(req,res){
             console.log(error);
             res.send(error);
         } else {
-            console.log('update ok!');
+            console.log('设置成功');
             res.send("update OK!");
         }
     });
@@ -159,7 +174,16 @@ app.use(function (req,res) { //1
 
 http.createServer(app).listen(app.get('port'), function(){
     console.log('Express server listening on port ' + app.get('port'));
+    //打开MongoDB 数据库
+    //  cd F:\Program Files\MongoDB\bin
+    //mongod --dbpath "F:\Program Files\MongoDB\data"
+
+    //
+    //打开默认页
    var last =  exec('start "" "http://127.0.0.1:3000/public/main/AddInPrivate.html"');
          last.on('exit', function (code) {
-    });
+   });
+
+
+
 });

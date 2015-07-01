@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="zm_url_webdomain_default">https://www.zhumu.me</string>
+    <string name="zm_url_update">%s/support/download?os=android</string>
+    <string name="zm_url_join_conf">join.zoom.us</string>
+    <string name="zm_zoom_scheme">zhumu</string>
+</resources>

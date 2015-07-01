@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <color name="gray_bg">#eaeaea</color>
+    <color name="gray_text">#8d8d8d</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#629d57</color>
+    <color name="green_click">#62b452</color>
+    <color name="green_alpha">#83BC78</color>
+    <color name="menu_gray">#0E0F0E</color>
+    <color name="menu_gray_alpha">#3F4143</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="white_f">#FFF</color>
+
+    <drawable name="green">#629d57</drawable>
+    <drawable name="green_click">#7ae963</drawable>
+
+    <color name="txt_color">#3c3c3c</color>
+    <color name="table_title_color">#B2B3B1</color>
+    <color name="gray_text_bg">#F0F4EC</color>
+    <color name="black">#000000</color>
+    <color name="yew">#EDEAC9</color>
+    <color name="home_geeen_click">#b8f696</color>
+    <color name="net_error_bg">#FDEDED</color>
+    <color name="background">#f8f8f8</color>
+    <color name="input_txt">#3c3c3c</color>
+    <color name="password_no_click">#303d44</color>
+    <color name="register_txt">#2671d5</color>
+    <color name="next_temp">#bdc0c5</color>
+    <color name="input_stream">#303d44</color>
+
+    <drawable name="next_or_back">#ffffff</drawable>
+    <drawable name="next_or_back_click">#bdc0c5</drawable>
+
+    <!-- 3.0 -->
+    <drawable name="contacts_item_bg_click">#fdfdfd</drawable>
+    <drawable name="contacts_item_bg_default">#f8f8f8</drawable>
+    <drawable name="help_item_colcor">#f4f4f4</drawable>
+
+    <color name="contacts_status_gray">#999da0</color>
+    <color name="progress_color">#f39800</color>
+    <color name="add_participants_color">#585858 </color>
+    <color name="line">#babfc2</color>
+    <color name="meeting_connect_bg">#485365</color>
+    <color name="blue_2d82f5_color">#2d82f5</color>
+    <!-- 二维码 -->
+    <color name="two_code_bg">#00F3F0E9</color>
+    <color name="next_temp_not">#7EC7FF</color>
+    <color name="item_color">#f5f5f5</color>
+    <color name="blue_meeting_menu_color">#006cff</color>
+
+</resources>

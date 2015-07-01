@@ -94,17 +94,17 @@
                         <div class="box-content">
                             <br>
                             <div class="input-group has-success col-md-3">
-                                <label class="control-label" for="inputSuccess1">饮料：</label>
-                                <input type="text" class="form-control" id="inputSuccess1"  placeholder="请输入共需多少元"/>
+                                <label class="control-label" for="inputSuccess3">饮料：</label>
+                                <input type="text" class="form-control" id="inputSuccess3"  placeholder="请输入共需多少元"/>
                             </div>
                             <div class="input-group has-success col-md-3">
-                                <label class="control-label" for="inputSuccess1">其他：</label>
-                                <input type="text" class="form-control" id="inputSuccess1"  placeholder="请输入共需多少元"/>
+                                <label class="control-label" for="inputSuccess4">其他：</label>
+                                <input type="text" class="form-control" id="inputSuccess4"  placeholder="请输入共需多少元"/>
                             </div>
 
                             <br/>
                             <p>
-                                <button class="btn btn-danger btn-lg">      0元     </button>
+                                <button id="tijiao" class="btn btn-danger btn-lg">      0元     </button>
                             </p>
 
                         </div>
@@ -143,7 +143,29 @@
 <script src='bower_components/fullcalendar/dist/fullcalendar.min.js'></script>
 <!-- data table plugin -->
 <script src='js/jquery.dataTables.min.js'></script>
+<script>
+    window.url='http://127.0.0.1:3000';
+    $(function(){
 
+        $("#tijiao").click(function(){
+            var yinliao = $("#inputSuccess3").val();
+            var qita = $("#inputSuccess4").val();
+            $.ajax(url+"/saveIncome?money="+yinliao+"&type=2&remark=")
+                    .done(function(data){
+                    }).fail(function(error){
+                    });
+            $.ajax(url+"/saveIncome?money="+qita+"&type=3&remark=")
+                    .done(function(data){
+                    }).fail(function(error){
+                    });
+
+        });
+
+
+    });
+
+
+</script>
 
 
 </body>

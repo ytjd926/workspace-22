@@ -91,7 +91,7 @@ $(function(){
         var titleColor = "#73a839";
         var buttonClass = "btn btn-success btn-sm";
         var buttonValue = "使用";
-        if(userdTime!=null && userdTime!=undefined){
+        if(userdTime!=null && userdTime!=undefined && userdTime!=""){
             var time=new Date(userdTime);
             var nowTime = new Date();
             time = nowTime.getTime()-time.getTime();
@@ -193,12 +193,14 @@ $(function(){
             //退出
 
             initRoom($id);//UI初始化
+            var code=$id.attr("code");
+
             if(Number($id.attr("timer"))<=10 ){
                 //当使用时间少于10分钟时，当作误操作处理，不计费
 
             }else{
                 //开始计费
-                var code=$id.attr("code");
+
 
               var isSingle =  $id.find(".row").find(".col-md-4:eq(0)").find("h6").html();
                 var price = "0";
@@ -207,12 +209,15 @@ $(function(){
                 }else{
                     price = window.single2;
                 }
-
                 $.ajax(url+"/saveIncome?money="+price+"&type=4&remark="+code)
                     .done(function(data){
                     }).fail(function(error){
                     });
             }
+            $.ajax(url+"/removeRoom?roomCode="+code)
+                .done(function(data){
+                }).fail(function(error){
+                });
         }
 
 
