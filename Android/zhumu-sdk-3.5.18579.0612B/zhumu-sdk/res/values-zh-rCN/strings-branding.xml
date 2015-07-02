@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="zm_app_name">云ICU</string>
+    <string name="zm_app_full_name">云ICU视频通信云</string>
+    <string name="zm_app_sub_title">视频通信云</string>
+    <string name="zm_lbl_copyright">Copyright ©2006–2015 SUIRUI Co., Ltd. All rights reserved.</string>
+    
+    <!-- If a username ends in "s", we use the 2nd string, otherwise we use the first one. Example: "Cindy's Zhumu Meeting"，“Ross' Zhumu Meeting”  -->
+    <string name="zm_lbl_xxx_s_meeting_s">%s的云ICU会议</string>
+    <string name="zm_lbl_xxx_s_meeting_no_s">%s的云ICU会议</string>
+    <string name="zm_lbl_meeting_number_discription">会议ID是一个10至11位的数字</string>
+    <string name="zm_lbl_personal_meeting_id_rule">*建议您使用自己的手机号码作为个人会议ID</string>
+    
+    <string name="zm_btn_recommend">向他人推荐云ICU</string>
+    <string name="zm_btn_invite_to_get_zoom">邀请其他人使用云ICU</string>
+    
+    <!-- The string "s" stands for a username. Example: "Invite Cindy Smith to get Zhumu"  -->
+    <string name="zm_title_invite_xxx">邀请%s使用云ICU</string>
+    <string name="zm_title_setting_about">关于云ICU</string>
+    <string name="zm_title_conf_long">云ICU会议ID: %s</string>
+    <!-- The string "%s" will be replaced by meeting topic.  -->
+    <string name="zm_title_meeting_invitation_email_topic">云ICU会议邀请 - %s</string>
+    <string name="zm_title_invite_email_topic">请加入一场正在召开的会议</string>
+    <string name="zm_title_new_version_ready">云ICU有新版本啦!</string>
+    
+    <string name="zm_meeting_invitation_ics_name">Zhumu-Meeting</string>
+    <string name="zm_alert_connect_zoomus_failed_msg">连接云ICU失败。</string>
+    <string name="zm_alert_dial_into_meeting">您是否要自动拨号进入会议?\n\n拨号进入会议后，请切换回云ICU界面.</string>
+    <string name="zm_msg_conffail_needupdate_confirm">云ICU有新版本啦! 请立即更新。</string>
+    <string name="zm_msg_audio_stopped_by_call_offhook">会议已被静音</string>
+    <string name="zm_msg_host_paid_title">感谢您选择云ICU!</string>
+    <string name="zm_msg_free_meeting_timeout">本场免费会议已结束。感谢您选择云ICU!</string>
+    <string name="zm_msg_sms_invitation_content">我正在使用云ICU的移动会议，可在http://www.zhumu.me获取免费App。</string>
+    <string name="zm_msg_no_new_version">云ICU已是最新版本。</string>
+    <string name="zm_msg_feedback_welcome"><![CDATA[如需技术支持，请访问<a href="%s">技术支持</a>。我们也欢迎任何关于云ICU的意见，想法和建议。请在这里填写反馈:]]></string>
+    
+    <!-- Parameters: joinMeetingUrl, meetingId  -->
+    <string formatted="false" name="zm_msg_sms_invite_in_meeting">请输入会议ID(${meetingId})加入会议。</string>
+    <!-- Parameters: joinMeetingUrl, meetingId  -->
+    <string formatted="false" name="zm_msg_meeting_url_for_copy_to_clipboard">${joinMeetingUrl}</string>
+    <!-- The string will be replaced by a meeting URL. Example: "join.zoom.us/3892783298"  -->
+    <!-- Parameters: joinMeetingUrl, meetingId  -->
+    <string formatted="false" name="zm_msg_sms_invite_scheduled_meeting">点击 ${joinMeetingUrl} 开启或加入一场安排好的Zoom会议。</string>
+    
+    <string formatted="false" name="zm_msg_invitation_message_template">%s正通过云ICU呼叫您，点击这个链接即可加入。\r\n%s</string>
+    
+    <!--Not visible to customer-->
+    <string name="zm_permission_change_config_label">更改 云ICU视频通信云 应用配置</string>
+    <string name="zm_permission_change_config_desc">更改 云ICU视频通信云 应用配置。</string>
+    <string name="zm_permission_read_config_label">读取云ICU视频通信云应用配置</string>
+    <string name="zm_permission_read_config_desc">读取云ICU视频通信云应用配置。</string>
+    <string name="zm_permission_group">云ICU视频通信云应用配置工具</string>
+        
+</resources>

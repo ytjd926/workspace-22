@@ -1,0 +1,13 @@
+.ui-header h1 {background: url("../images/uavImg/logo.png") no-repeat left; font-weight: normal; padding:40px 1px 1px 10px; float: left; font-weight: bold; margin-left: 10px; text-indent: 160px; position:absolute; top:0; verflow:hidden; height:40px; color:#dde2e7; font:100 24px/28px "\9ED1\4F53";}
+.menu-item{display:block;color:#d8d8d8;text-decoration: none;padding:5px 5px 5px 15px;}
+.menu-item:hover{background: #E0ECFF;}
+.ui-header{height:80px; background:url(../images/uavImg/topbg.png) repeat-x;}
+.ui-header h1 img{max-width:160px;}
+.ui-login{position:relative;float:right;}
+.ui-login h4{color:#fffffe;padding-top:-10px;}
+.ui-login.back span{padding-left:7px;}
+.ui-login.wel{padding-top:22px;padding-right:35px;}
+.ui-login.wel h4{margin-top:0px;}
+.ui-login.jk{border-left:2px solid #312F30;border-right:2px solid #312F30;margin-right:120px;height:90px;}
+.ui-login.jk h4{font:16px "ºÚÌå" !important;color:#cccccc;padding:15px;padding-top:20px;}
+.page-container{background-color:#2F2D2E}

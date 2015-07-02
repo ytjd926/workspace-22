@@ -1,0 +1,52 @@
+<#include "resource.html" encoding="utf-8"/>
+<body class="easyui-layout">
+     <!-- Edit Form -->
+     <div title="用户">  
+     	<form id="editForm" class="ui-form" method="post" action="save.do">  
+     		 <input id="id" class="hidden" type="text" name="id">
+     		 <input class="hidden" name="deleted">
+     		 <div class="ui-edit">
+	     	   <div class="ftitle">系统用户信息</div>    
+	           <div class="fitem">  
+	               <label>邮箱账号:</label>  
+	               <input class="easyui-validatebox" type="text" name="email" data-options="required:true,validType:'email'" value="${email}">
+	           </div>  
+	           <div class="fitem">  
+	               <label>手机号:</label>  
+	               <input class="easyui-validatebox" type="text" name="phone" data-options="required:true,validType:'phone'" value="${phone}">
+	           </div>  
+	            
+	           <div class="fitem">  
+	               <label>姓名:</label>  
+	               <input class="easyui-validatebox" type="text" name="nickName" data-options="required:true,validType:'length[1,10]'" value="${nickName}">
+	           </div>
+	           <div class="fitem">  
+	               <label>所在子站:</label>  
+	               <input class="easyui-validatebox" type="text" name="station" data-options="required:true" value="${station}">
+	           </div>
+	           <!-- <div class="fitem">  
+	               <label>电子签名:</label>  
+	               <input type="file" name="signature"/>
+				   <img src="${basePath}/${signature}"/>
+	           </div> -->
+	            <div class="fitem">  
+	               <label>状态:</label>
+				   <#assign Y="true" />  
+				   <#assign N="false" />
+				   <#if state == 1>
+				   		<#assign Y="false" />  
+				   		<#assign N="true" />
+					</#if>
+	               <select class="easyui-combobox" name="state" data-options="required:true">
+                    	<option value="0" selected="selected">可用</option>
+                    	<option value="1">禁用</option>
+                   	</select>
+	           </div> 
+	         </div>
+			 <div id="editPwdbtn" class="dialog-button">  
+            	<button type="submit" class="easyui-linkbutton" id="btn-pwd-submit">提交</button>  
+            	<button type="reset" class="easyui-linkbutton" id="btn-pwd-close">重置</button>  
+        	</div>
+     	</form>
+  	 </div> 
+</body>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Genuitec</title>
+	<atom:link href="https://www.genuitec.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.genuitec.com</link>
+	<description>The Cloud Control Company</description>
+	<lastBuildDate>Thu, 25 Jun 2015 07:59:08 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.2.2</generator>
+	<item>
+		<title>Eclipse 4.5-We have made it to MARS, now what?</title>
+		<link>https://www.genuitec.com/eclipse45mars/</link>
+		<comments>https://www.genuitec.com/eclipse45mars/#comments</comments>
+		<pubDate>Wed, 24 Jun 2015 17:40:15 +0000</pubDate>
+		<dc:creator><![CDATA[Anabella]]></dc:creator>
+				<category><![CDATA[Eclipse]]></category>
+		<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[Secure Delivery Center]]></category>
+		<category><![CDATA[eclipse 4.5]]></category>
+		<category><![CDATA[Eclipse Mars]]></category>
+		<category><![CDATA[MyEclipse]]></category>
+		<category><![CDATA[programming]]></category>
+		<category><![CDATA[SDC]]></category>
+		<category><![CDATA[Secure Deliver Center]]></category>
+		<category><![CDATA[software]]></category>
+		<category><![CDATA[UI]]></category>
+		<category><![CDATA[Web Development]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=394023</guid>
+		<description><![CDATA[<p>The day is here. This June 24th. 2015 marks an importan [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/eclipse45mars/">Eclipse 4.5-We have made it to MARS, now what?</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/eclipse45mars/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>GapDebug Twitter Chat Recap &#8211; June 16th</title>
+		<link>https://www.genuitec.com/gapdebug-twitter-chat-recap-june-16th/</link>
+		<comments>https://www.genuitec.com/gapdebug-twitter-chat-recap-june-16th/#comments</comments>
+		<pubDate>Tue, 16 Jun 2015 17:23:06 +0000</pubDate>
+		<dc:creator><![CDATA[Rocio Trujillo]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=393074</guid>
+		<description><![CDATA[<p>Hello everyone! Here is the recap of our #GenuitecChat  [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/gapdebug-twitter-chat-recap-june-16th/">GapDebug Twitter Chat Recap &#8211; June 16th</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/gapdebug-twitter-chat-recap-june-16th/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Coding is for everyone! and Genuitec gets it!</title>
+		<link>https://www.genuitec.com/coding-is-for-everyone-and-genuitec-gets-it/</link>
+		<comments>https://www.genuitec.com/coding-is-for-everyone-and-genuitec-gets-it/#comments</comments>
+		<pubDate>Tue, 09 Jun 2015 23:00:31 +0000</pubDate>
+		<dc:creator><![CDATA[Rocio Trujillo]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[MyEclipse]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=392517</guid>
+		<description><![CDATA[<p>Recently the coding life and world of developers has in [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/coding-is-for-everyone-and-genuitec-gets-it/">Coding is for everyone! and Genuitec gets it!</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/coding-is-for-everyone-and-genuitec-gets-it/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>MyEclipse Genuitec Chat &#8211; Recap June 2nd</title>
+		<link>https://www.genuitec.com/myeclipse-genuitec-chat-recap-june-2nd/</link>
+		<comments>https://www.genuitec.com/myeclipse-genuitec-chat-recap-june-2nd/#comments</comments>
+		<pubDate>Tue, 02 Jun 2015 16:15:30 +0000</pubDate>
+		<dc:creator><![CDATA[Rocio Trujillo]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=392280</guid>
+		<description><![CDATA[<p>Hello everyone! Here is the recap of our #GenuitecChat  [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/myeclipse-genuitec-chat-recap-june-2nd/">MyEclipse Genuitec Chat &#8211; Recap June 2nd</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/myeclipse-genuitec-chat-recap-june-2nd/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Do IT like an Indian god</title>
+		<link>https://www.genuitec.com/do-it-like-an-indian-god/</link>
+		<comments>https://www.genuitec.com/do-it-like-an-indian-god/#comments</comments>
+		<pubDate>Mon, 01 Jun 2015 19:09:42 +0000</pubDate>
+		<dc:creator><![CDATA[Anabella]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[Secure Delivery Center]]></category>
+		<category><![CDATA[certified popular pack]]></category>
+		<category><![CDATA[eclipse plugins]]></category>
+		<category><![CDATA[IntelliJ IDEA]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[Java development]]></category>
+		<category><![CDATA[SDC]]></category>
+		<category><![CDATA[software packs]]></category>
+		<category><![CDATA[WebStorm]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=392206</guid>
+		<description><![CDATA[<p>We remember how the cellphone started. How little by li [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/do-it-like-an-indian-god/">Do IT like an Indian god</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/do-it-like-an-indian-god/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Genuitec Twitter Chat &#8211; MyEclipse mode ON!</title>
+		<link>https://www.genuitec.com/genuitec-twitter-chat-myeclipse-mode-on/</link>
+		<comments>https://www.genuitec.com/genuitec-twitter-chat-myeclipse-mode-on/#comments</comments>
+		<pubDate>Mon, 01 Jun 2015 14:00:01 +0000</pubDate>
+		<dc:creator><![CDATA[Rocio Trujillo]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=392100</guid>
+		<description><![CDATA[<p>Hello World!MyEclipse managers are gearing up to meet w [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/genuitec-twitter-chat-myeclipse-mode-on/">Genuitec Twitter Chat &#8211; MyEclipse mode ON!</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/genuitec-twitter-chat-myeclipse-mode-on/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>MyEclipse 2015 Stable 2.0 &#8211; Web Tools for Java EE Developers</title>
+		<link>https://www.genuitec.com/2015-stable-2-myeclipse/</link>
+		<comments>https://www.genuitec.com/2015-stable-2-myeclipse/#comments</comments>
+		<pubDate>Fri, 29 May 2015 14:31:37 +0000</pubDate>
+		<dc:creator><![CDATA[LaraStrain]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[MyEclipse]]></category>
+		<category><![CDATA[Application Development]]></category>
+		<category><![CDATA[Eclipse]]></category>
+		<category><![CDATA[Eclipse Developer]]></category>
+		<category><![CDATA[Eclipse Java]]></category>
+		<category><![CDATA[Eclipse Luna]]></category>
+		<category><![CDATA[Emmet]]></category>
+		<category><![CDATA[Ionic]]></category>
+		<category><![CDATA[Java EE]]></category>
+		<category><![CDATA[Java EE development]]></category>
+		<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[PhoneGap]]></category>
+		<category><![CDATA[Web Development]]></category>
+		<category><![CDATA[WebSphere]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=391661</guid>
+		<description><![CDATA[<p>After 4 months of arduous work, MyEclipse 2015 Stable 2 [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/2015-stable-2-myeclipse/">MyEclipse 2015 Stable 2.0 &#8211; Web Tools for Java EE Developers</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/2015-stable-2-myeclipse/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>MyEclipse 2015 CI 13 Introduces the Minimap</title>
+		<link>https://www.genuitec.com/me-2015-ci13-release/</link>
+		<comments>https://www.genuitec.com/me-2015-ci13-release/#comments</comments>
+		<pubDate>Thu, 21 May 2015 20:23:35 +0000</pubDate>
+		<dc:creator><![CDATA[LaraStrain]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[MyEclipse]]></category>
+		<category><![CDATA[Minimap]]></category>
+		<category><![CDATA[source code editing]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=363464</guid>
+		<description><![CDATA[<p>MyEclipse focuses this latest CI Stream release on impo [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/me-2015-ci13-release/">MyEclipse 2015 CI 13 Introduces the Minimap</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/me-2015-ci13-release/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>GapDebug Highlighted in New Books about Cordova App Development</title>
+		<link>https://www.genuitec.com/gapdebug-highlighted-in-new-books-about-cordova/</link>
+		<comments>https://www.genuitec.com/gapdebug-highlighted-in-new-books-about-cordova/#comments</comments>
+		<pubDate>Tue, 19 May 2015 18:47:39 +0000</pubDate>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
+				<category><![CDATA[GapDebug]]></category>
+		<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Apache Cordova]]></category>
+		<category><![CDATA[Cordova 4]]></category>
+		<category><![CDATA[cordova book]]></category>
+		<category><![CDATA[debugger]]></category>
+		<category><![CDATA[mobile app debugger]]></category>
+		<category><![CDATA[Mobile app dev]]></category>
+		<category><![CDATA[mobile development book]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=36883</guid>
+		<description><![CDATA[<p>GapDebug&#8217;s popularity with Android and iOS mobile [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/gapdebug-highlighted-in-new-books-about-cordova/">GapDebug Highlighted in New Books about Cordova App Development</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/gapdebug-highlighted-in-new-books-about-cordova/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>SDC Twitter Chat Recap &#8211; May 19, 2015</title>
+		<link>https://www.genuitec.com/sdc-twitter-chat-recap-may-19-2015/</link>
+		<comments>https://www.genuitec.com/sdc-twitter-chat-recap-may-19-2015/#comments</comments>
+		<pubDate>Tue, 19 May 2015 14:47:48 +0000</pubDate>
+		<dc:creator><![CDATA[LaraStrain]]></dc:creator>
+				<category><![CDATA[Eclipse]]></category>
+		<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[Secure Delivery Center]]></category>
+		<category><![CDATA[Eclipse Mars]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=380835</guid>
+		<description><![CDATA[<p>In case you missed it, here is the recap of the May 19, [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/sdc-twitter-chat-recap-may-19-2015/">SDC Twitter Chat Recap &#8211; May 19, 2015</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/sdc-twitter-chat-recap-may-19-2015/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Genuitec Twitter Chat &#8211; Let&#8217;s talk SDC!</title>
+		<link>https://www.genuitec.com/genuitec-twitter-chat-lets-talk-sdc/</link>
+		<comments>https://www.genuitec.com/genuitec-twitter-chat-lets-talk-sdc/#comments</comments>
+		<pubDate>Thu, 14 May 2015 21:44:15 +0000</pubDate>
+		<dc:creator><![CDATA[Rocio Trujillo]]></dc:creator>
+				<category><![CDATA[Secure Delivery Center]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=363256</guid>
+		<description><![CDATA[<p>Hello Everyone! We&#8217;re almost ready for our next G [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/genuitec-twitter-chat-lets-talk-sdc/">Genuitec Twitter Chat &#8211; Let&#8217;s talk SDC!</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/genuitec-twitter-chat-lets-talk-sdc/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Genuitec.com is Having Work Done</title>
+		<link>https://www.genuitec.com/having-work-done/</link>
+		<comments>https://www.genuitec.com/having-work-done/#comments</comments>
+		<pubDate>Tue, 12 May 2015 13:58:53 +0000</pubDate>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=36978</guid>
+		<description><![CDATA[<p>Please excuse the mess! We&#8217;re working hard to upd [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/having-work-done/">Genuitec.com is Having Work Done</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/having-work-done/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Instant Debugging Extended in Latest GapDebug Update</title>
+		<link>https://www.genuitec.com/2015u1-3-gapdebug-instant-debugging/</link>
+		<comments>https://www.genuitec.com/2015u1-3-gapdebug-instant-debugging/#comments</comments>
+		<pubDate>Tue, 05 May 2015 17:07:04 +0000</pubDate>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
+				<category><![CDATA[GapDebug]]></category>
+		<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[app installation]]></category>
+		<category><![CDATA[cordova]]></category>
+		<category><![CDATA[debug PhoneGap]]></category>
+		<category><![CDATA[gapdebug]]></category>
+		<category><![CDATA[instant debugging]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[PhoneGap]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=36839</guid>
+		<description><![CDATA[<p>Instant debugging keeps your debugging session going af [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/2015u1-3-gapdebug-instant-debugging/">Instant Debugging Extended in Latest GapDebug Update</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/2015u1-3-gapdebug-instant-debugging/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>GapDebug Twitter Chat Recap &#8211; May 5, 2015</title>
+		<link>https://www.genuitec.com/gapdebug-twitter-chat-recap-may-5-2015/</link>
+		<comments>https://www.genuitec.com/gapdebug-twitter-chat-recap-may-5-2015/#comments</comments>
+		<pubDate>Tue, 05 May 2015 15:36:03 +0000</pubDate>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
+				<category><![CDATA[MyEclipse]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=36881</guid>
+		<description><![CDATA[<p>Hello world! Here is the recap of the May 5, 2015 Genui [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/gapdebug-twitter-chat-recap-may-5-2015/">GapDebug Twitter Chat Recap &#8211; May 5, 2015</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/gapdebug-twitter-chat-recap-may-5-2015/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>GapDebug Twitter Chat &#8211; Let&#8217;s Talk PhoneGap!</title>
+		<link>https://www.genuitec.com/gapdebug-twitter-chat-may-15/</link>
+		<comments>https://www.genuitec.com/gapdebug-twitter-chat-may-15/#comments</comments>
+		<pubDate>Mon, 04 May 2015 13:37:25 +0000</pubDate>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
+				<category><![CDATA[MyEclipse]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=36624</guid>
+		<description><![CDATA[<p>Hello Friends! It&#8217;s almost time for our next Genu [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/gapdebug-twitter-chat-may-15/">GapDebug Twitter Chat &#8211; Let&#8217;s Talk PhoneGap!</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/gapdebug-twitter-chat-may-15/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching 41/43 queries in 0.014 seconds using apc
+Object Caching 1918/2012 objects using apc
+Content Delivery Network via resources.cloud.genuitec.com
+
+ Served from: www.genuitec.com @ 2015-06-25 03:49:40 by W3 Total Cache -->

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zoom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="500dp"
+    android:orientation="vertical"
+    android:focusable="false"
+    android:paddingBottom="10dp" >
+
+    <us.zoom.androidlib.widget.ZMIOSStyleTitlebarLayout
+        android:id="@+id/panelTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zm_pt_titlebar_height"
+        style="@style/ZMTitleBar"
+        zoom:zm_leftButton="@+id/btnBack"
+        zoom:zm_rightButton="@+id/viewRight"
+        zoom:zm_title="@+id/txtTitle" >
+        
+        <Button
+            android:id="@+id/btnBack"
+            style="@style/ZMBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:focusable="true"
+            android:text=""
+            android:contentDescription="@string/zm_btn_back" />
+        
+        <View
+            android:id="@+id/viewRight"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+        
+        <us.zoom.androidlib.widget.ZMDynTextSizeTextView
+            android:id="@+id/txtTitle"
+            style="@style/ZMTextView.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/zm_title_join_conf" />
+        
+    </us.zoom.androidlib.widget.ZMIOSStyleTitlebarLayout>
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:focusable="false"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:orientation="vertical" >
+
+            <us.zoom.androidlib.widget.ZMSettingsCategory
+                android:id="@+id/panelActions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/zm_setting_item_group_spacing"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/panelConfNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/zm_setting_item_padding_left"
+                    android:paddingRight="@dimen/zm_setting_item_padding_right" >
+
+                    <com.zipow.videobox.view.ConfNumberAutoCompleteTextView
+                        android:id="@+id/edtConfNumber"
+                        style="@style/ZMEditText.SettingsItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="-7dp"
+                        android:layout_marginTop="-7dp"
+                        android:completionThreshold="1"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:hint="@string/zm_hint_meeting_number"
+                        android:imeOptions="actionNext|flagNoExtractUi"
+                        android:maxLength="13"
+                        android:paddingBottom="17dp"
+                        android:paddingTop="17dp" >
+
+                        <requestFocus />
+                    </com.zipow.videobox.view.ConfNumberAutoCompleteTextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/panelScreenName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/zm_setting_item_padding_left"
+                    android:paddingRight="@dimen/zm_setting_item_padding_right" >
+
+                    <EditText
+                        android:id="@+id/edtScreenName"
+                        style="@style/ZMEditText.SettingsItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:hint="@string/zm_hint_screen_name"
+                        android:imeOptions="actionDone|flagNoExtractUi"
+                        android:inputType="textPersonName"
+                        android:maxLength="50"
+                        android:text="" />
+                </LinearLayout>
+
+            </us.zoom.androidlib.widget.ZMSettingsCategory>
+            
+            <TextView
+                style="@style/ZMTextView.Normal.OnLight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:focusable="false"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/zm_lbl_meeting_number_discription" />
+
+            <Button
+                style="@style/ZMButton.HappyPath"
+                android:id="@+id/btnJoin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:focusable="true"
+                android:text="@string/zm_btn_join_meeting" />
+            
+            <TextView
+                style="@style/ZMTextView.Medium.OnLight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:focusable="false"
+                android:gravity="center"
+                android:text="@string/zm_lbl_input_meeting_link" />
+
+            <TextView
+                style="@style/ZMTextView.Normal.Dimmed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:focusable="false"
+                android:gravity="center"
+                android:text="@string/zm_msg_join_meeting_instructions_after_login" />
+                
+        </LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>

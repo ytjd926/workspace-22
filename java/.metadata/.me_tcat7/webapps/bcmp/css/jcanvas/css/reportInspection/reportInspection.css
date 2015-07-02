@@ -1,0 +1,124 @@
+.left_div {
+	width: 20%;
+	height: 100%;
+	float: left;
+	padding-right: 20px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow-y: hidden;
+}
+.rwlb_div {
+	width: 100%;
+	height: 50%;
+}
+.right_div {
+	width: 80%;
+	height: 100%;
+	float: left;
+}
+#faultId {
+	width: 100%;
+	height: 98%;
+	float: left;
+	background-color: black;
+	padding: 5px 5px 5px 10px;
+}
+#flyLogId {
+	width: 100%;
+	height: 49%;
+	float: left;
+	padding: 5px 5px 0px 10px;
+}
+#reportControlId {
+	width: 30%;
+	height: 98%;
+	float: left;
+	padding: 5px 10px 0px 5px;
+}
+#filghtControlId {
+	width: 66%;
+	height: 98%;
+	float: left;
+	padding: 5px 10px 0px 0px;
+}
+.inspect_rwcx_div {
+	position: relative;
+	width: 45%;
+	height: 27%;
+	padding: 0px;
+	box-sizing: border-box;
+	background: #2887FE;
+	float: left;
+	font-weight: 800;
+	font-size: 1.2em;
+	line-height: 3em;
+	text-align: center;
+	overflow: hidden;
+	margin-right: 5%;
+	margin-left: 5%;
+	cursor: pointer;
+}
+.inspect_rwlb_div {
+	position: relative;
+	width: 45%;
+	height: 27%;
+	padding: 0px;
+	box-sizing: border-box;
+	background: #2887FE;
+	float: left;
+	font-weight: 800;
+	font-size: 1.2em;
+	line-height: 3em;
+	text-align: center;
+	overflow: hidden;
+}
+.inspectionList_div {
+	width: 100%;
+	height: 10%;
+	float: left;
+	text-align: center;
+	font-size: 18px;
+	background: #404040;
+	margin: 0px;
+	padding-top: 5px;
+	box-sizing: border-box;
+}
+.inspectionTask_div {
+	width: 70%;
+	float: left;
+	line-height: 27px;
+	background-color: #1E728C;
+	margin-left: 10%;
+	margin-top: 10px;
+	padding-left: 5%;
+	cursor: pointer;
+}
+.rwlbShow_div {
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 62%
+}
+.rwShow_div {
+	overflow-y: auto;
+	position: relative;
+	float: right;
+	width: 95%;
+	height: 100%;
+}
+.flightTask_div {
+	width: 85%;
+	float: left;
+	line-height: 27px;
+	background-color: #1E728C;
+	margin-left: 2%;
+	margin-top: 5px;
+	padding-left: 10%;
+	cursor: pointer;
+}
+.flightlbShow_div {
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 92%
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>无人机集中管控系统</title>
+    <#include "resource.html" encoding="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="${basePath}/css/main.css">
+    <script type="text/javascript" src="${basePath}/js/ux/main/main.js"></script>
+</head>
+<body>
+	<!-- 顶部信息 -->
+	<body class="easyui-layout">  
+	 	<div class="ui-header" data-options="region:'north',split:true,border:false" style="height:90px;overflow: hidden;">
+		 	<h1>无人机集中管控系统</h1>	
+	 		<div class="ui-login back">
+	 			<a href="${basePath}/logout.shtml">
+	 				<img src="${basePath}/images/uavImg/back.png"/>
+	 			</a>
+	 			<h4>14:23:56</h4>
+	 		</div>
+	 		<div class="ui-login wel">
+				欢迎 <span class="orange">${user.nickName}</span> 
+				第[<span class="orange">${user.loginCount}</span>]次登录
+			</div> 
+			<a href="javascript:void(0);" onclick="window.location.href='/uavService/'">
+			<div class="ui-login jk">
+				<h4>监控页面</h4>
+			</div>
+			</a>
+	 	</div>
+ 	
+		<!-- 树形菜单 -->
+		<div data-options="region:'west',split:true,title:'功能导航'" style="width:200px;">
+			<div id="tree-box" class="easyui-accordion" data-options="fit:true,border:false">
+				<#list menuList as menu>
+				<div title="${menu.text}">
+					<#list menu.children as kid>
+					<a class="menu-item" href="${basePath}${kid.url}">${kid.text}</a>
+					</#list>
+				</div>
+				</#list>
+			</div>
+		</div>
+		<div data-options="region:'south',split:true,border:false" style="height: 30px;overflow:hidden;">
+			<div class="panel-header" style="border: none;text-align: center;" >CopyRight &copy; 2015 国家电网山东省电力公司  版权所有. &nbsp;&nbsp;</div>
+		</div>
+		<!-- 中间内容页面 -->
+		<div data-options="region:'center'" >
+			<div class="easyui-tabs" id="tab-box" data-options="fit:true,border:false">
+				<div title="Welcome" style="padding:20px;overflow:hidden;"> 
+					<div style="margin-top:20px;">
+						<h3>简要说明</h3>
+						<ul>
+						    <li>简要说明</li>
+						</ul>
+					</div>
+					
+					<div style="margin-top:20px;">
+						<h3>欢迎首页</h3>
+						<p>  </p>
+						<ul>
+							<li>欢迎首页</li> 
+						</ul>
+					</div>
+				</div>
+			</div>	
+		</div>	
+  	</body>
+</html>

@@ -1,0 +1,32 @@
+#route_map{
+	width:65%;
+	height:100%;
+	float:left;
+}
+#route_slider{
+	width: 35%;
+	height:100%;
+	float:left;
+	box-sizing: border-box;
+	border-collapse:collapse;
+	font:14px tahoma;
+}
+.route_map_area{
+	width:100%;
+	position: relative;
+	float:left;
+	height:100%;
+}
+.tr_title{
+	background-color: #292929;
+}
+.routeList_div{
+	width: 85%;	
+	float: left;
+	line-height: 27px;
+	background-color: #1E728C;
+	margin-left: 2%;
+	margin-top: 5px;
+	padding-left: 10%;
+	cursor: pointer;
+}

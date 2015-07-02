@@ -1,0 +1,45 @@
+.pagination{}
+.pagination a {
+	display: block;
+	float: left;
+	height: 100%;
+	width: 15%;
+	background: #454545;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	font-family: Times, 'Times New Roman', Georgia, Palatino; /* ATTN: need a better font stack */
+	font-weight: bold;
+	font-size: 100%;
+	outline: none;
+	vertical-align: middle;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	border-right: 1px solid #CDCDCD; 
+	border-left: 1px solid #CDCDCD;
+	padding-top: 5px;
+}
+
+.pagination a:hover, .pagination a:focus, .pagination a:active {
+
+	background: #454545; /* Old browsers */
+}
+
+.pagination a.disabled, .pagination a.disabled:hover, .pagination a.disabled:focus, .pagination a.disabled:active {
+
+	background: #CECECE; 
+	color: #A8A8A8;
+}
+.pagination input {
+	width: 40%;
+	height: 100%;
+	float: left;
+	line-height:100%;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 100%;
+	border: none;
+	outline: none;
+	padding:0;
+	margin: 0;
+}

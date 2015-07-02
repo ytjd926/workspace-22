@@ -1,0 +1,23 @@
+form,h1{margin: 0; padding: 0;}
+h2 {font-size:18px;color:#333;font-weight:bold;margin:0;margin-bottom:15px;}
+.warp{padding: 10px;}
+a{text-decoration: none;color:#ccc;}
+.hidden { display: none;}
+.show { display: block;}
+.red{color: #FF1E00!important;}
+.green{color: #090!important;}
+.orange{color: #F60!important;}
+.datagrid-row-selected a{color: #ccc;}
+
+.ui-form{margin:0;padding:10px 15px;  }  
+.ftitle{font-size:14px;font-weight:bold;padding:5px 0;margin-bottom:10px;}  
+.fitem{margin-bottom:5px;}  
+.fitem textarea,.fitem label{vertical-align: middle;}
+.fitem label{display:inline-block;width:100px;text-align:right;}
+
+.ui-fields{vertical-align: middle;display: inline-block;float: left;margin: 0;padding: 5px}
+.ui-label{vertical-align: middle;padding-right: 3px}
+.ui-text{width:150px;height:24px !important;border-radius:5px !important;line-height:2 !important;padding:3px !important;border:0px;background-color:#3e3e3e;color:#cccccc;}
+.easyui-validatebox{width:150px;height:24px !important;border-radius:5px !important;line-height:2 !important;padding:3px !important;border:0px;background-color:#3e3e3e;color:#cccccc;}
+.ui-search-panel{}
+

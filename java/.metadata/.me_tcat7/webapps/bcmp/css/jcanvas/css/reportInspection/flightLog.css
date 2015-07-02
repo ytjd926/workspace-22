@@ -1,0 +1,79 @@
+.blan_div{
+	width: 100%;
+	height: 1%;
+	line-height: 4em;
+}
+.function_div{
+	float: right;
+	width: 100%;
+}
+.second_blan_div{
+	width: 100%;
+	height: 1%;
+	line-height: 3em;
+}
+.flightLogContent_div{
+	width: 100%;
+	overflow-y:scroll;
+}
+#zhuanSuId{
+	width:12%;
+	height:1%;
+	float:left;
+	font-weight:600;
+	line-height: 2em;
+	margin-left:1%;
+	text-align:center;
+	overflow:hidden;
+	background-color:black;
+}
+#gunZhuanJiaoId{
+	width:12%;
+	height:1%;
+	float:left;
+	font-weight:600;
+	line-height: 2em;
+	margin-left:1%;
+	text-align:center;
+	overflow:hidden;
+	background-color:black;
+}
+#fuYangJiaoId{
+	width:12%;
+	height:1%;
+	float:left;
+	font-weight:600;
+	line-height: 2em;
+	margin-left:1%;
+	text-align:center;
+	overflow:hidden;
+	background-color:black;
+}
+#pianHangJiaoId{
+	width:12%;
+	height:1%;
+	float:left;
+	font-weight:600;
+	line-height: 2em;
+	margin-left:1%;
+	text-align:center;
+	overflow:hidden;
+	background-color:black;
+}
+#airHighId{
+	width:18%;
+	height:1%;
+	float:left;
+	font-weight:600;
+	line-height: 2em;
+	margin-left:1%;
+	text-align:center;
+	overflow:hidden;
+	background-color:black;
+}
+#flightLogContent{
+	padding:13px 0px 10px;
+	padding-left:28px;
+	width:677px;
+	height:180px;
+}

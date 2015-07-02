@@ -1,0 +1,211 @@
+.left_div {
+	width: 15%;
+	height: 100%;
+	float: left;
+	padding-right: 20px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow-y: hidden;
+}
+.rwlb_div {
+	width: 100%;
+	height: 55%;
+}
+.rwxx_div {
+	width: 100%;
+	height: 45%;
+}
+.right_div {
+	width: 85%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.tab_normal {
+	position: relative;
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	transition: all 0.1s;
+	-o-transition: all 0.1s;
+	-ms-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+	margin: 0 5px 5px 0;
+	border-radius: 5px;
+	background: #e5e5e5;;
+	box-shadow: 0 2px rgba(0,0,0,0.2);
+	color: #808080;
+	padding: 0 20px;
+	font-size: 13px;
+	line-height: 33px;
+}
+.tab_normal:hover {
+	background: #fff;
+	opacity: 1;
+}
+.tab_selected {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	color: #fff;
+	opacity: 1;
+	background: #666;
+	cursor: default;
+	margin: 0 5px 5px 0;
+	border-radius: 5px;
+	box-shadow: 0 2px rgba(0,0,0,0.2);
+	padding: 0 20px;
+	font-size: 13px;
+	line-height: 33px;
+	position: relative;
+	display: inline-block;
+	border: 0;
+	outline: none;
+	transition: all 0.1s;
+	-o-transition: all 0.1s;
+	-ms-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+	text-align: left;
+	font-family: "微软雅黑";
+	margin-bottom: 0;
+	padding-bottom: 15px;
+}
+.tab_container {
+	background: #666;
+	position: relative;
+	height: 95%;
+	padding: 20px;
+	box-sizing: border-box;
+	-webkit-border-radius: 0 20px 20px 20px;
+	border-radius: 0 20px 20px 20px;
+}
+div.searchPic {
+	width: 100%;
+	position: relative;
+	background: #222222;
+	height: 100%;
+	border-radius: 20px 20px 0 0;
+}
+div.searchContainer>label{
+	width: 20%;
+	display: block;
+	border-bottom: 1px solid #161712;
+	padding: 10px 0 10px 0;
+	float: left;
+	background: #1C1C1C;
+}
+div.searchContainer>span {
+	width: 20%;
+	display: block;
+	border-bottom: 1px solid #161712;
+	padding: 10px 0 10px 0;
+	float: left;
+	background: #1C1C1C;
+}
+div.searchContainer>span span {
+	font-weight: 800;
+	display: block;
+	color: #bbbbbb;
+	font-size: 12px;
+	float: left;
+	text-align: left;
+	padding: 5px 20px 10px 10px;
+	width: 100%;
+}
+div.searchContainer>div {
+	width: 20%;
+	display: block;
+	border-bottom: 1px solid #161712;
+	padding: 10px 0 7px 0;
+	float: left;
+	background: #1C1C1C;
+}
+div.searchContainer div span {
+	font-weight: 800;
+	display: block;
+	color: #bbbbbb;
+	font-size: 12px;
+	float: left;
+	text-align: left;
+	padding: 5px 20px 10px 10px;
+}
+div.searchContainer label span {
+	font-weight: 800;
+	display: block;
+	color: #bbbbbb;
+	font-size: 12px;
+	float: left;
+	text-align: left;
+	padding: 5px 20px 10px 10px;
+}
+div.searchPic .input_text {
+	color: #FFF;
+	padding: 5px 10px;
+	width: 85%;
+	background: #262626;
+	border-bottom: 1px double #171717;
+	border-top: 1px double #171717;
+	border-left: 1px double #333333;
+	border-right: 1px double #333333;
+	margin-left: 10px;
+}
+.searchPic thead {
+	font-size: 14px;
+	font-weight: 800;
+	color: white;
+}
+.searchPic tr:nth-child(even) {
+	background: #262626
+}
+.searchContainer {
+	background: #1C1C1C;
+}
+.header_container {
+	background-image: linear-gradient(#444,#2d2d2d);
+	height:40px;
+	border-radius: 10px 10px 0 0;
+	color:#fff;
+	text-shadow: 0 1px 0 #111;
+	font-size:16px;
+	font-weight:800;
+	padding-top:10px;
+	padding-left:10px;
+	box-sizing: border-box;
+}
+.buttonGroup{
+	
+}
+.left_button{
+	border-radius:10px 0 0 10px;
+}
+.mid_button{
+	background-image: linear-gradient(#444,#2d2d2d);
+	float:left;
+	height:100%;
+	padding:15px 20px 15px 20px;
+	margin-top: 10px;
+	margin-bottom:10px;
+	font-weight: 800;
+}
+.right_button{
+	border-radius: 0 10px 10px 0;
+}
+.mid_button:hover{
+	background-image: linear-gradient(#2d2d2d,#444);
+}
+
+#pstartTimeId,#pendTimeId,#puploadStartTimeId,#puploadEndTimeId{
+	width:35%;
+}
+#cstartTime,#cendTime,#cUpdateStartTime,#cUpdateEndTime{
+	/*width:35%;*/
+}
+.result_button_div{
+	height: 63px;
+}
+
+.result_button_div>input{
+	margin-top:15px;
+	margin-left:10px;
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/qidongye_icon_01" >
+        </ImageView>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtMeetingNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:hint="请输入视频通话ID"
+        android:imeOptions="actionNext|flagNoExtractUi"
+        android:maxLength="13" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/xingming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:hint="请输入姓名"
+        android:imeOptions="actionNext|flagNoExtractUi"
+        android:maxLength="13" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnStartMeeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:onClick="onClickBtnStartMeeting"
+            android:text="启动已创建视频通话"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnJoinMeeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:onClick="onClickBtnJoinMeeting"
+            android:text="加入视频通话" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:hint=""
+        android:imeOptions="actionNext|flagNoExtractUi"
+        android:maxLength="13"
+        android:visibility="gone" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btnStartInstantMeeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickBtnStartInstantMeeting"
+        android:text="启动视频通话"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/morepersonMeeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickBtnStartInstantMeeting"
+        android:text="多人视频"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     
+        android:gravity="center"
+        android:orientation="vertical" >
+        <ImageView
+               android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/qidongye_icon_02" >
+        </ImageView>
+    </LinearLayout>
+
+</LinearLayout>

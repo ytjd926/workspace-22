@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server DRIVER_CREATED_2="true" HOME_DIR="/Users/ian/.myeclipse/derby" PORT="1527" derby_autostart_timeout="3000" derby_enable_autostart="true" hostname="localhost" id="com.genuitec.derby.server" id-set="true" me-disable-overview-page="true" name="MyEclipse Derby" server-type="com.genuitec.derby.server" server-type-id="com.genuitec.derby.server" single-instance="true" start-timeout="240" stop-timeout="240" timestamp="0"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/MyEclipse Tomcat v7.0-config" deployDir="wtpwebapps" has-configuration="true" hostname="localhost" id="com.genuitec.embedded.tomcat.server.v70" id-set="true" java-location="/Applications/MyEclipse 2015 CI/MyEclipse 2015 CI.app/Contents/Profile/binary/com.sun.java.jdk7.macosx.x86_64_1.7.0.u45" name="MyEclipse Tomcat v7.0" runtime-id="com.genuitec.embedded.tomcat.runtime.v70" server-location="/Applications/MyEclipse 2015 CI/MyEclipse 2015 CI.app/Contents/Profile/plugins/com.genuitec.eclipse.server.embedded.tomcat.core_13.0.0.me201412010219/tomcat70" server-type="com.genuitec.embedded.tomcat.server.v70" server-type-id="com.genuitec.embedded.tomcat.server.v70" single-instance="true" start-timeout="45" stop-timeout="15" testEnvironment="false" timestamp="1" useAutoDeploy="true">
+    <list key="modules" value0="bcmp::org.eclipse.jst.jee.server:bcmp::jst.web::2.5%%EXPLODED"/>
+  </server>
+</servers>

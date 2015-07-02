@@ -1,0 +1,49 @@
+<#include "resource.html" encoding="utf-8"/>
+<body class="easyui-layout">
+<div class="ui-search-panel" region="north" style="height: 80px;">
+	<form id="searchForm">
+		<p class="ui-fields">
+			<label class="ui-label">角色名:</label> 
+			<input name="roleName" class="easyui-box ui-text" style="width:100px;">
+		</p>
+		<a href="#" id="btn-search" class="easyui-linkbutton">查询</a>
+	</form>
+</div>
+<!--  Search panel end -->
+
+<!-- DataList  -->
+<div region="center" border="false">
+	<table id="data-list"></table>
+</div>
+<!-- Edit Form -->
+<div id="edit-win" class="easyui-dialog" title="Edit"
+	data-options="closed:true,iconCls:'icon-save',modal:true"
+	style="width:400px;height:410px;">
+	<form id="editForm" class="ui-form" method="post">
+		<input class="hidden" type="text" name="id" />
+		<div class="ui-edit">
+			<div class="ftitle">角色信息</div>
+			<div class="fitem">
+				<label>角色名:</label> 
+				<input class="easyui-validatebox" type="text" name="roleName" data-options="required:true,validType:'length[1,10]'">
+			</div>
+			<div class="fitem">
+				<label>状态:</label> 
+				<select class="easyui-combobox" name="state" data-options="required:true">
+					<option value="0" selected="selected">可用</option>
+					<option value="1">禁用</option>
+				</select>
+			</div>
+			
+			<div class="fitem">
+				<label>功能权限:</label>
+				<div style="border: 1px solid #A4BED4; width:230px;height:200px;margin-left: 105px ;overflow: auto; ">
+					<ul id="menu-tree">
+					</ul>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
+<script type="text/javascript" src="${basePath}/js/ux/sys/sysRole.js"></script>
+</body>
