@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Android/android-4.3/legacy/ApiDemos/ApiDemos.iml" filepath="$PROJECT_DIR$/../Android/android-4.3/legacy/ApiDemos/ApiDemos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Nodejs/ZaoTang/ZaoTang.iml" filepath="$PROJECT_DIR$/../Nodejs/ZaoTang/ZaoTang.iml" />
-      <module fileurl="file://$PROJECT_DIR$/workspace.iml" filepath="$PROJECT_DIR$/workspace.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Android/串口蓝牙app通讯/bt/bt.iml" filepath="$PROJECT_DIR$/../Android/串口蓝牙app通讯/bt/bt.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Android/MHSTOP/自己封装的Android程序.iml" filepath="$PROJECT_DIR$/../Android/MHSTOP/自己封装的Android程序.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Android/android-4.3/ApiDemos.iml" filepath="$PROJECT_DIR$/../Android/android-4.3/ApiDemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Android/MHSTOP/个人Android框架.iml" filepath="$PROJECT_DIR$/../Android/MHSTOP/个人Android框架.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Android/串口蓝牙app通讯/bt/串口蓝牙app通讯.iml" filepath="$PROJECT_DIR$/../Android/串口蓝牙app通讯/bt/串口蓝牙app通讯.iml" />
     </modules>
   </component>
 </project>
+
