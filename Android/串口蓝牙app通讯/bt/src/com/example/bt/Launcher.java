@@ -9,7 +9,9 @@ public class Launcher extends Activity  {
 	 @Override  
 	  protected void onCreate(Bundle savedInstanceState) {  
 	   super.onCreate(savedInstanceState);  
-	   setContentView(R.layout.launcher);  
+	   setContentView(R.layout.launcher);
+         Analysis.getInstance();
+
        new Handler().postDelayed(new Runnable() {
 			@Override
 			public void run() {

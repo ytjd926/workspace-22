@@ -1,12 +1,27 @@
 package com.example.bt;
 
 import java.util.ArrayList;
+import java.util.List;
+
+import android.util.Log;
+import com.alibaba.fastjson.*;
 
 /**
  * Created by ian on 15/7/2.
  */
 public class Analysis {
     private ArrayList<Protocol> listRuleMD001;
+
+    private static Analysis instance;
+    public static Analysis getInstance(){
+        if(instance==null){
+            instance = new Analysis();
+            instance.createMD001Rule();
+        }
+        return instance;
+    }
+
+
 
     private ArrayList<Protocol> createMD001Rule(){
         listRuleMD001 = new ArrayList<Protocol>();
@@ -43,8 +58,24 @@ public class Analysis {
         listRuleMD001.add(new Protocol("#8", 2, "温度", "Tempreture"));
 
 
+        JSONObject jsonObject =new JSONObject();
+        for (int i=0;i<listRuleMD001.size();i++ ){
+            Protocol tempP =  listRuleMD001.get(i);
+
+            List<Protocol> tempList= (List<Protocol>) jsonObject.get(tempP.block);
+            if(tempList!=null){
+                    
+            }
+
+
+            jsonObject.put(tempP.block, tempP);
+        }
+       Log.i("Analysis",jsonObject.toJSONString());
+
         return listRuleMD001;
     }
+
+
 
 
     private class Protocol{
@@ -59,7 +90,6 @@ public class Analysis {
               this.name = name;
               this.filed = filed;
           }
-
     }
 
 
